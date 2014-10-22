@@ -5,7 +5,7 @@ int fact(int val) {
 }
 
 int main() {
-	std::cout << fact(5) << std::endl;
+	std::cout << "5! = " << fact(5) << std::endl;
+    std::cout << "7! = " << fact(7) << std::endl;
 	return 0;
-
 }
